@@ -2,11 +2,20 @@ body {
 	margin: 10px;
 	font-family: 'Montserrat', sans-serif;
 	color: #ffffff;
+	
 }
+
+.content {
+	display: block;
+  	position: relative;
+	width: 1260px;
+}
+
 /*..header____...*/
 header {
 	display: flex;
 	justify-content: space-between;
+	
 }
 
 .logo {
