@@ -2,14 +2,15 @@ body {
 	margin: 10px;
 	font-family: 'Montserrat', sans-serif;
 	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	
 	
 }
 
 .content {
-	display: block;
-  	position: relative;
 	width: 1260px;
-}
+ }
 
 /*..header____...*/
 header {
