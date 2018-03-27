@@ -22,9 +22,7 @@ header {
 @media screen and (max-width: 425px) {
 
 	 header {
-	 	
 	 	justify-content: center;
-
 	}
 }
 
@@ -42,6 +40,12 @@ main {
 	margin-top: 10px;
 	height: 800px;
 	flex-direction: row;
+}
+
+@media screen and (max-width: 425px) {
+	 main {
+	 	flex-wrap: wrap;
+	}
 }
 
 footer {
@@ -68,7 +72,6 @@ footer {
 	.logo {
 		width: 100%;
 	}
-
 	.baner {
 		width: 100%;
 		margin-top: 10px;
@@ -82,7 +85,6 @@ footer {
 	flex-direction: column;
 	justify-content: space-between;
 }
-
 .content_a {
 	width: 56%;
 }
@@ -147,4 +149,16 @@ footer {
 .c_c {
 	margin-top: 10px;
 	height: 35%;
+}
+
+@media screen and (max-width: 425px) {
+	.content_a, .content_b, .content_c {
+	width: 100%;
+	margin:0;
+	border: solid #888888 1px;
+	}
+	.content_b, .content_c {
+		margin-top: 10px;
+	}
+
 }
