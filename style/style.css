@@ -51,6 +51,11 @@ footer {
 	width: 44%;
 }
 
+@media screen and (min-width: 300px) and (orientation: landscape) {
+	
+ 
+}
+
 /*....content_a.....*/
 .content_a, .content_b, .content_c {
 	width: 56%;
