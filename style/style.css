@@ -3,7 +3,6 @@
 	padding:0;
 	font-family: 'Montserrat', sans-serif;
 	color: white;
-	overflow: hidden;
 }
 
 .conteiner {
@@ -20,7 +19,6 @@ header {
 }
 
 @media screen and (max-width: 425px) {
-
 	 header {
 	 	justify-content: center;
 	}
@@ -150,7 +148,6 @@ footer {
 	margin-top: 10px;
 	height: 35%;
 }
-
 @media screen and (max-width: 425px) {
 	.content_a, .content_b, .content_c {
 	width: 100%;
@@ -160,5 +157,4 @@ footer {
 	.content_b, .content_c {
 		margin-top: 10px;
 	}
-
 }
