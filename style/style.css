@@ -2,7 +2,7 @@
 	margin: 0;
 	padding:0;
 	font-family: 'Montserrat', sans-serif;
-	
+	color: white;
 }
 
 .conteiner {
@@ -16,13 +16,12 @@ header {
 	justify-content: space-between;
 }
 
-nav {
+nav, footer {
 	display: flex;
 	background-color: #acacac;
 	height: 70px;
 	justify-content: center;
 	align-items: center;
-	color: white;
 	margin-top: 10px;
 }
 
@@ -31,138 +30,97 @@ main {
 	margin-top: 10px;
 	height: 800px;
 	flex-direction: row;
-	
 }
 
 footer {
-	display: flex;
-	background-color: #acacac;
 	height: 200px;
+}
+
+.logo, .baner {
+	background-color: #acacac;
+	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: white;
-	margin-top: 10px;
 }
 
 .logo {
 	width: 15%;
-	background-color: #acacac;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 5px;
-	color: white;
-	
 }
 
 .baner {
 	width: 44%;
-	background-color: #acacac;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 5px;
-	color: white;
 }
+
 /*....content_a.....*/
-.content_a {
+.content_a, .content_b, .content_c {
 	width: 56%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
-.a_a {
+
+.content_a {
+	width: 56%;
+}
+.a_a, .a_b, .a_c {
 	background-color: #acacac;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: white;
-	height: 20%;
 	text-align: center;
+}
+.a_a {
+	height: 20%;
 }
 .a_b {
-	background-color: #acacac;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: white;
 	margin-top: 10px;
 	height: 25%;
-	text-align: center;
 }
 .a_c {
-	background-color: #acacac;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: white;
 	margin-top: 10px;
 	height: 55%;
-	text-align: center;
 }
 
 /*....content_b.....*/
 .content_b {
 	width: 22%;
 	margin-left:10px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 }
-.b_a {
+.b_a, .b_b {
 	background-color: #acacac;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: white;
 	height: 30%;
 	text-align: center;
 }
 .b_b {
-	background-color: #acacac;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: white;
 	margin-top: 10px;
 	height: 70%;
-	text-align: center;
 }
 
 /*....content_c.....*/
 .content_c {
 	width: 22%;
 	margin-left:10px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
 }
-.c_a {
+.c_a, .c_b, .c_c  {
 	background-color: #acacac;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: white;
-	height: 15%;
 	text-align: center;
 }
+
+.c_a {
+	height: 50%;
+}
+
 .c_b {
-	background-color: #acacac;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: white;
 	margin-top: 10px;
 	height: 50%;
-	text-align: center;
 }
 .c_c {
-	background-color: #acacac;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: white;
 	margin-top: 10px;
 	height: 35%;
-	text-align: center;
 }
